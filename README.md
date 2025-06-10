@@ -6,7 +6,11 @@
 
 This repository serves as an experimental playground for exploring and demonstrating the groundbreaking technologies introduced at Apple's WWDC 2025. Here you'll find hands-on demo projects, code samples, and practical implementations of the latest Apple frameworks and APIs using Xcode 26.
 
-## What's Inside
+## Demo Projects
+
+*Coming soon...*
+
+## Gems from WWDC25
 
 ### 🎨 Liquid Glass Design System
 Explore Apple's revolutionary new UI material that combines glass-like optics with fluid, responsive interactivity:
@@ -36,54 +40,12 @@ Modern UI development with enhanced SwiftUI capabilities:
 - 3D charts with RealityKit integration
 - Cross-platform consistency across iOS, iPadOS, macOS, watchOS, and visionOS
 
-### 🥽 visionOS 26 Spatial Computing
-Next-generation spatial experiences:
-- Volumetric APIs for 3D layouts
-- Environment occlusion for realistic AR
-- Nearby window sharing for collaborative experiences
-- Immersive media support (180°, 360°, wide-FOV video)
-
-### 🎮 Gaming & Metal 4
-Advanced graphics and gaming capabilities:
-- Neural rendering with ML inference in shaders
-- MetalFX upscaling and frame interpolation
-- GameSave framework for cloud saves
-- Game Center social features
-
-## Getting Started
-
-1. **Requirements**: 
-   - Xcode 26 (beta)
-   - macOS with Apple Silicon (required for future features)
-   - iOS 19+ / iPadOS 19+ / macOS Tahoe+ / watchOS 11+ / visionOS 26+
-
-2. **Setup**:
-   ```bash
-   git clone https://github.com/radude89/wwdc25-playground.git
-   cd wwdc25-playground
-   open [ProjectName].xcodeproj
-   ```
-
-3. **Explore**: Each demo project includes detailed documentation and step-by-step implementation guides.
-
-## Demo Projects
-
-*Coming soon...*
-
 ## Resources
 
 - [WWDC 2025 Session Videos](https://developer.apple.com/videos/wwdc2025/)
 - [Apple Developer Documentation](https://developer.apple.com/documentation/)
 - [Foundation Models Framework](https://developer.apple.com/documentation/foundationmodels)
 - [Liquid Glass Design Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
-
-## Contributing
-
-Feel free to contribute your own WWDC25 experiments and demos! Please follow Apple's latest development guidelines and prioritize:
-- On-device processing over cloud services
-- Privacy-first implementations
-- Cross-platform consistency
-- Accessibility best practices
 
 ## License
 
