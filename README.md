@@ -8,7 +8,19 @@ This repository serves as an experimental playground for exploring and demonstra
 
 ## Demo Projects
 
-*Coming soon...*
+### HelloWorld26
+A SwiftUI demo project showcasing Xcode 26 features:
+- **#Playground Macro**: Inline code experimentation for rapid prototyping
+- **#bundle Literal**: Access to current bundle information
+- **TODO** SwiftUI new stuff
+
+**Location:** `projects/HelloWorld26/`
+
+**How to Run:**
+1. Open `HelloWorld26.xcodeproj` in Xcode 26
+2. Select your target device or simulator
+3. Press Cmd+R to build and run
+4. Explore the `#Playground` blocks in ContentView.swift for interactive development
 
 ## Gems from WWDC25
 

@@ -6,6 +6,11 @@
 //
 
 import SwiftUI
+import Playgrounds
+
+enum EyeColor {
+    case blue, green, brown, other
+}
 
 struct ContentView: View {
     var body: some View {
@@ -17,4 +22,28 @@ struct ContentView: View {
         }
         .padding()
     }
+
+    func onLoad() {
+        let currentBundle = #bundle
+        print(currentBundle)
+    }
+
+}
+
+struct Person {
+    let age: Int
+    let name: String
+    let eyeColor: EyeColor
+}
+
+#Playground {
+    let person = Person(
+        age: 25,
+        name: "John",
+        eyeColor: .blue
+    )
+}
+
+#Playground {
+    let greeting = "Hello"
 }

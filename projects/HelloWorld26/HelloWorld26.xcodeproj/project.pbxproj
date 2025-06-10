@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		F79E08782DF8318400005D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7CE6A8D2DF7B0AF005A1B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CE6A942DF7B0AF005A1B89;
+			remoteInfo = HelloWorld26;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F79E08722DF8318400005D02 /* HelloWorld26UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorld26UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CE6A952DF7B0AF005A1B89 /* HelloWorld26.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld26.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		F79E08732DF8318400005D02 /* HelloWorld26UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HelloWorld26UITests;
+			sourceTree = "<group>";
+		};
 		F7CE6A972DF7B0AF005A1B89 /* HelloWorld26 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HelloWorld26;
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F79E086F2DF8318400005D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7CE6A922DF7B0AF005A1B89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				F7CE6A972DF7B0AF005A1B89 /* HelloWorld26 */,
+				F79E08732DF8318400005D02 /* HelloWorld26UITests */,
 				F7CE6A962DF7B0AF005A1B89 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				F7CE6A952DF7B0AF005A1B89 /* HelloWorld26.app */,
+				F79E08722DF8318400005D02 /* HelloWorld26UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F79E08712DF8318400005D02 /* HelloWorld26UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F79E087C2DF8318400005D02 /* Build configuration list for PBXNativeTarget "HelloWorld26UITests" */;
+			buildPhases = (
+				F79E086E2DF8318400005D02 /* Sources */,
+				F79E086F2DF8318400005D02 /* Frameworks */,
+				F79E08702DF8318400005D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F79E08792DF8318400005D02 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F79E08732DF8318400005D02 /* HelloWorld26UITests */,
+			);
+			name = HelloWorld26UITests;
+			packageProductDependencies = (
+			);
+			productName = HelloWorld26UITests;
+			productReference = F79E08722DF8318400005D02 /* HelloWorld26UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F7CE6A942DF7B0AF005A1B89 /* HelloWorld26 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7CE6AA02DF7B0B2005A1B89 /* Build configuration list for PBXNativeTarget "HelloWorld26" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
+					F79E08712DF8318400005D02 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = F7CE6A942DF7B0AF005A1B89;
+					};
 					F7CE6A942DF7B0AF005A1B89 = {
 						CreatedOnToolsVersion = 26.0;
 					};
@@ -100,11 +152,19 @@
 			projectRoot = "";
 			targets = (
 				F7CE6A942DF7B0AF005A1B89 /* HelloWorld26 */,
+				F79E08712DF8318400005D02 /* HelloWorld26UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F79E08702DF8318400005D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7CE6A932DF7B0AF005A1B89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +175,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F79E086E2DF8318400005D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7CE6A912DF7B0AF005A1B89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +191,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F79E08792DF8318400005D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7CE6A942DF7B0AF005A1B89 /* HelloWorld26 */;
+			targetProxy = F79E08782DF8318400005D02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		F79E087A2DF8318400005D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42L6GB6DU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdan.HelloWorld26UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWorld26;
+			};
+			name = Debug;
+		};
+		F79E087B2DF8318400005D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42L6GB6DU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdan.HelloWorld26UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWorld26;
+			};
+			name = Release;
+		};
 		F7CE6A9E2DF7B0B2005A1B89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -251,7 +364,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelloWorld26/HelloWorld26.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMPILATION_CACHE_ENABLE_CACHING = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 42L6GB6DU6;
 				ENABLE_PREVIEWS = YES;
@@ -282,7 +397,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelloWorld26/HelloWorld26.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMPILATION_CACHE_ENABLE_CACHING = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 42L6GB6DU6;
 				ENABLE_PREVIEWS = YES;
@@ -311,6 +428,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F79E087C2DF8318400005D02 /* Build configuration list for PBXNativeTarget "HelloWorld26UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79E087A2DF8318400005D02 /* Debug */,
+				F79E087B2DF8318400005D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F7CE6A902DF7B0AF005A1B89 /* Build configuration list for PBXProject "HelloWorld26" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
