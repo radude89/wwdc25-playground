@@ -9,10 +9,12 @@ This repository serves as an experimental playground for exploring and demonstra
 ## Demo Projects
 
 ### HelloWorld26
-A SwiftUI demo project showcasing Xcode 26 features:
-- **#Playground Macro**: Inline code experimentation for rapid prototyping
-- **#bundle Literal**: Access to current bundle information
-- **TODO** SwiftUI new stuff
+A SwiftUI demo project showcasing Xcode 26 and WWDC 2025 features:
+- **#Playground Macro**: Inline code experimentation for rapid prototyping and debugging
+- **#bundle Literal**: Access to current bundle information at compile time
+- **Liquid Glass UI**: Interactive glass effects with `.glassEffect()` modifiers
+- **Glass Animations**: Seamless transitions using `@Namespace` and `glassEffectID`
+- **Glass Button Styles**: Modern `.glass` button style for consistent UI
 
 **Location:** `projects/HelloWorld26/`
 
@@ -26,10 +28,12 @@ A SwiftUI demo project showcasing Xcode 26 features:
 
 ### 🎨 Liquid Glass Design System
 Explore Apple's revolutionary new UI material that combines glass-like optics with fluid, responsive interactivity:
-- Custom controls with `glassEffect` modifier
-- Glass button styles and toolbar customizations
-- Dynamic app icons with Icon Composer
-- Background extension effects for immersive experiences
+- **Interactive Glass Effects**: `.glassEffect()` modifier with customizable shapes and tinting
+- **Glass Containers**: `GlassEffectContainer` for grouping related glass elements
+- **Animation Support**: Smooth transitions with `glassEffectID` and `@Namespace` integration
+- **Glass Button Styles**: `.glass` button style for consistent interactive elements
+- **Layered Glass**: Overlapping glass elements with proper depth and visual hierarchy
+- **Dynamic Tinting**: `.tint()` modifier support for contextual glass coloring
 
 ### 🧠 Apple Intelligence & Foundation Models
 Harness the power of on-device AI with Apple's new Foundation Models Framework:
