@@ -8,10 +8,6 @@
 import SwiftUI
 import Playgrounds
 
-enum EyeColor {
-    case blue, green, brown, other
-}
-
 struct ContentView: View {
     var body: some View {
         VStack {
@@ -21,6 +17,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear(perform: onLoad)
     }
 
     func onLoad() {
@@ -36,8 +33,12 @@ struct Person {
     let eyeColor: EyeColor
 }
 
+enum EyeColor {
+    case blue, green, brown, other
+}
+
 #Playground {
-    let person = Person(
+    _ = Person(
         age: 25,
         name: "John",
         eyeColor: .blue
@@ -45,5 +46,9 @@ struct Person {
 }
 
 #Playground {
-    let greeting = "Hello"
+    _ = "Hello"
+}
+
+#Preview {
+    ContentView()
 }
