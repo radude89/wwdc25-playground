@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  GlassEffectDemoView.swift
 //  HelloWorld26
 //
 //  Created by Radu Dan on 10.06.2025.
@@ -8,19 +8,17 @@
 import SwiftUI
 import Playgrounds
 
-struct ContentView: View {
+struct GlassEffectDemoView: View {
     @State private var isScooterEmojiVisible = false
     @Namespace private var emojisNamespace
 
     var body: some View {
         ZStack {
-            LinearGradient(
+            BackgroundView(
                 colors: [
                     .blue.opacity(0.15),
                     .purple.opacity(0.15),
-                ],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
+                ]
             )
 
             VStack(spacing: 24) {
@@ -119,5 +117,5 @@ enum EyeColor {
 }
 
 #Preview {
-    ContentView()
+    GlassEffectDemoView()
 }
