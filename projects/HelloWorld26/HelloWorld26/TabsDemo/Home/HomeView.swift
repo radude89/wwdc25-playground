@@ -28,6 +28,18 @@ private extension HomeView {
                 DetailsView()
             }
         }
+        .toolbar(id: "main_toolbar") {
+            ToolbarItem(id: "first_item") {
+                Button("First") {}
+            }
+            ToolbarItem(id: "second_item") {
+                Button("Second") {}
+            }
+            ToolbarItem(id: "third_item") {
+                Button("Third") {}
+            }
+        }
+        .scrollEdgeEffectStyle(.soft, for: .top)
     }
 
     var scrollView: some View {

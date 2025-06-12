@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct TabDemoView: View {
+    @State private  var text = ""
+
     var body: some View {
-        HomeView()
+        TabView {
+            Tab("Home", systemImage: "house.fill") {
+                HomeView()
+            }
+            Tab("Profile", systemImage: "person.fill") {
+                ProfileView()
+            }
+            Tab(role: .search) {
+                NavigationStack {
+                    Text("Search")
+                }
+            }
+        }
+        .searchable(text: $text)
+        .tabBarMinimizeBehavior(
+            .onScrollUp
+        )
+        .tabViewBottomAccessory {
+            Button("😇") {}
+                .padding()
+        }
     }
 }
 
