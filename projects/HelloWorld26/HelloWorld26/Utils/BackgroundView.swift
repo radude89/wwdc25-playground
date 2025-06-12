@@ -24,6 +24,9 @@ struct BackgroundView: View {
             startPoint: .topLeading,
             endPoint: .bottomTrailing
         )
-        .ignoresSafeArea()
     }
+}
+
+#Preview {
+    BackgroundView()
 }

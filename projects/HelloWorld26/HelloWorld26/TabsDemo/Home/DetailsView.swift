@@ -13,18 +13,6 @@ struct DetailsView: View {
             .padding()
             .navigationTitle("Details")
             .navigationBarTitleDisplayMode(.large)
-//            .toolbar {
-//                ToolbarItem {
-//                    Button("Title") {}
-//                }
-//                ToolbarItem {
-//                    Button("Title2") {}
-//                }
-//                ToolbarSpacer(.fixed)
-//                ToolbarItem(placement: .primaryAction) {
-//                    Button("Title2") {}
-//                }
-//            }
     }
 }
 

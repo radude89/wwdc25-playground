@@ -19,24 +19,15 @@ private extension HomeView {
     var mainView: some View {
         ZStack {
             BackgroundView()
-//                .ignoresSafeArea()
-//                .backgroundExtensionEffect()
+                .ignoresSafeArea()
             scrollView
         }
-//        .scrollEdgeEffectStyle(.hard, for: .top)
         .navigationTitle("Home")
-//        .toolbar(id: "main-toolbar") {
-//            ToolbarItem(id: "tag") {
-//                Button("First") {}
-//            }
-//            ToolbarItem(id: "share") {
-//                Button("Second") {}
-//            }
-//            ToolbarSpacer(.fixed)
-//            ToolbarItem(id: "more") {
-//                Button("Third") {}
-//            }
-//        }
+        .navigationDestination(for: String.self) { value in
+            if value == "details" {
+                DetailsView()
+            }
+        }
     }
 
     var scrollView: some View {
@@ -54,9 +45,7 @@ private extension HomeView {
     }
 
     var detailsNavLink: some View {
-        NavigationLink(
-            destination: DetailsView()
-        ) {
+        NavigationLink(value: "details") {
             HStack {
                 Image(systemName: "arrow.right.circle.fill")
                 Text("Go to Details")
