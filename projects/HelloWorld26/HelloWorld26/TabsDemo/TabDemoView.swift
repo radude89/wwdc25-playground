@@ -30,7 +30,6 @@ struct TabDemoView: View {
         )
         .tabViewBottomAccessory {
             Button("😇") {}
-                .padding()
         }
     }
 }
